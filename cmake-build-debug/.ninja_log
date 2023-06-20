@@ -1,0 +1,13 @@
+# ninja log v5
+1	4355	1686987641570309585	tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	36d6cd958f4f3be6
+1	2341	1687036959575680821	tests/MyTests/CMakeFiles/MyTests.dir/OrderTests.cpp.o	1dbd85fd0c854850
+4356	4625	1686987641830301168	lib/libgtest.a	8733bb470449ab8c
+1	1519	1687111704328397219	OrderBook/CMakeFiles/OrderBook.dir/OrderBook.cpp.o	4c09cd70ce62e179
+1	2273	1687111705080388823	tests/MyTests/CMakeFiles/MyTests.dir/OrderBookTests.cpp.o	1783d097ee1e3c9a
+620	1650	1686988002038189547	tests/MyTests/CMakeFiles/MyTests.dir/Runner.cpp.o	77d76dbac6354b38
+0	70	1687112033261825453	build.ninja	54cc8eee48cba858
+1	991	1686987648474087737	tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	ac07f342b1e63526
+4143	4810	1687111707616360623	tests/MyTests/MyTests	4c4e7f28e95ae68b
+1520	4143	1687111706948368034	OrderBook/libOrderBook.a	755ed0d41133e0f9
+1	879	1687036958115634816	OrderBook/CMakeFiles/OrderBook.dir/Order.cpp.o	6ad175bde2a61fc0
+991	1032	1686987648514086461	lib/libgtest_main.a	ad4c421782b40c6e
