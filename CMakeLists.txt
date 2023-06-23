@@ -4,6 +4,7 @@ project(BackTest)
 set(CMAKE_CXX_STANDARD 20)
 
 include_directories(OrderBook)
+include_directories(lib)
 add_subdirectory(OrderBook)
 add_subdirectory(tests)
 add_subdirectory(lib)

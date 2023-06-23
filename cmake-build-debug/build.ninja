@@ -45,7 +45,7 @@ cmake_ninja_workdir = /home/murad/CLionProjects/backTest/cmake-build-debug/
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug && /snap/clion/237/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug && /snap/clion/241/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,7 +56,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug && /snap/clion/237/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug && /snap/clion/241/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -80,14 +80,14 @@ build cmake_object_order_depends_target_OrderBookRun: phony || OrderBook/CMakeFi
 build OrderBook/CMakeFiles/OrderBookRun.dir/OrderBook.cpp.o: CXX_COMPILER__OrderBookRun_Debug /home/murad/CLionProjects/backTest/OrderBook/OrderBook.cpp || cmake_object_order_depends_target_OrderBookRun
   DEP_FILE = OrderBook/CMakeFiles/OrderBookRun.dir/OrderBook.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = OrderBook/CMakeFiles/OrderBookRun.dir
   OBJECT_FILE_DIR = OrderBook/CMakeFiles/OrderBookRun.dir
 
 build OrderBook/CMakeFiles/OrderBookRun.dir/Order.cpp.o: CXX_COMPILER__OrderBookRun_Debug /home/murad/CLionProjects/backTest/OrderBook/Order.cpp || cmake_object_order_depends_target_OrderBookRun
   DEP_FILE = OrderBook/CMakeFiles/OrderBookRun.dir/Order.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = OrderBook/CMakeFiles/OrderBookRun.dir
   OBJECT_FILE_DIR = OrderBook/CMakeFiles/OrderBookRun.dir
 
@@ -119,14 +119,14 @@ build cmake_object_order_depends_target_OrderBook: phony || OrderBook/CMakeFiles
 build OrderBook/CMakeFiles/OrderBook.dir/OrderBook.cpp.o: CXX_COMPILER__OrderBook_Debug /home/murad/CLionProjects/backTest/OrderBook/OrderBook.cpp || cmake_object_order_depends_target_OrderBook
   DEP_FILE = OrderBook/CMakeFiles/OrderBook.dir/OrderBook.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = OrderBook/CMakeFiles/OrderBook.dir
   OBJECT_FILE_DIR = OrderBook/CMakeFiles/OrderBook.dir
 
 build OrderBook/CMakeFiles/OrderBook.dir/Order.cpp.o: CXX_COMPILER__OrderBook_Debug /home/murad/CLionProjects/backTest/OrderBook/Order.cpp || cmake_object_order_depends_target_OrderBook
   DEP_FILE = OrderBook/CMakeFiles/OrderBook.dir/Order.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = OrderBook/CMakeFiles/OrderBook.dir
   OBJECT_FILE_DIR = OrderBook/CMakeFiles/OrderBook.dir
 
@@ -151,7 +151,7 @@ build OrderBook/libOrderBook.a: CXX_STATIC_LIBRARY_LINKER__OrderBook_Debug Order
 # Utility command for edit_cache
 
 build OrderBook/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/OrderBook && /snap/clion/237/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/OrderBook && /snap/clion/241/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -162,7 +162,7 @@ build OrderBook/edit_cache: phony OrderBook/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build OrderBook/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/OrderBook && /snap/clion/237/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/OrderBook && /snap/clion/241/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -179,7 +179,7 @@ build OrderBook/rebuild_cache: phony OrderBook/CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build tests/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/tests && /snap/clion/237/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/tests && /snap/clion/241/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -190,7 +190,7 @@ build tests/edit_cache: phony tests/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build tests/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/tests && /snap/clion/237/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/tests && /snap/clion/241/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -214,7 +214,7 @@ build cmake_object_order_depends_target_gtest: phony || tests/lib/googletest/CMa
 build tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_Debug /home/murad/CLionProjects/backTest/tests/lib/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
   DEP_FILE = tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/tests/lib/googletest/include -I/home/murad/CLionProjects/backTest/tests/lib/googletest
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib -I/home/murad/CLionProjects/backTest/tests/lib/googletest/include -I/home/murad/CLionProjects/backTest/tests/lib/googletest
   OBJECT_DIR = tests/lib/googletest/CMakeFiles/gtest.dir
   OBJECT_FILE_DIR = tests/lib/googletest/CMakeFiles/gtest.dir/src
 
@@ -246,7 +246,7 @@ build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_
 build tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_Debug /home/murad/CLionProjects/backTest/tests/lib/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   DEP_FILE = tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest/include -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest/include -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest
   OBJECT_DIR = tests/lib/googletest/CMakeFiles/gtest_main.dir
   OBJECT_FILE_DIR = tests/lib/googletest/CMakeFiles/gtest_main.dir/src
 
@@ -271,7 +271,7 @@ build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug tests/lib
 # Utility command for edit_cache
 
 build tests/lib/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/tests/lib/googletest && /snap/clion/237/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/tests/lib/googletest && /snap/clion/241/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -282,7 +282,7 @@ build tests/lib/googletest/edit_cache: phony tests/lib/googletest/CMakeFiles/edi
 # Utility command for rebuild_cache
 
 build tests/lib/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/tests/lib/googletest && /snap/clion/237/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/tests/lib/googletest && /snap/clion/241/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -301,26 +301,33 @@ build tests/lib/googletest/rebuild_cache: phony tests/lib/googletest/CMakeFiles/
 #############################################
 # Order-only phony target for MyTests
 
-build cmake_object_order_depends_target_MyTests: phony || cmake_object_order_depends_target_OrderBook cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+build cmake_object_order_depends_target_MyTests: phony || cmake_object_order_depends_target_BackTestLib cmake_object_order_depends_target_OrderBook cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
 build tests/MyTests/CMakeFiles/MyTests.dir/OrderBookTests.cpp.o: CXX_COMPILER__MyTests_Debug /home/murad/CLionProjects/backTest/tests/MyTests/OrderBookTests.cpp || cmake_object_order_depends_target_MyTests
   DEP_FILE = tests/MyTests/CMakeFiles/MyTests.dir/OrderBookTests.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest/include -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest/include -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest
   OBJECT_DIR = tests/MyTests/CMakeFiles/MyTests.dir
   OBJECT_FILE_DIR = tests/MyTests/CMakeFiles/MyTests.dir
 
 build tests/MyTests/CMakeFiles/MyTests.dir/OrderTests.cpp.o: CXX_COMPILER__MyTests_Debug /home/murad/CLionProjects/backTest/tests/MyTests/OrderTests.cpp || cmake_object_order_depends_target_MyTests
   DEP_FILE = tests/MyTests/CMakeFiles/MyTests.dir/OrderTests.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest/include -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest/include -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest
   OBJECT_DIR = tests/MyTests/CMakeFiles/MyTests.dir
   OBJECT_FILE_DIR = tests/MyTests/CMakeFiles/MyTests.dir
 
 build tests/MyTests/CMakeFiles/MyTests.dir/Runner.cpp.o: CXX_COMPILER__MyTests_Debug /home/murad/CLionProjects/backTest/tests/MyTests/Runner.cpp || cmake_object_order_depends_target_MyTests
   DEP_FILE = tests/MyTests/CMakeFiles/MyTests.dir/Runner.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest/include -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest/include -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest
+  OBJECT_DIR = tests/MyTests/CMakeFiles/MyTests.dir
+  OBJECT_FILE_DIR = tests/MyTests/CMakeFiles/MyTests.dir
+
+build tests/MyTests/CMakeFiles/MyTests.dir/TestProfile.cpp.o: CXX_COMPILER__MyTests_Debug /home/murad/CLionProjects/backTest/tests/MyTests/TestProfile.cpp || cmake_object_order_depends_target_MyTests
+  DEP_FILE = tests/MyTests/CMakeFiles/MyTests.dir/TestProfile.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest/include -isystem /home/murad/CLionProjects/backTest/tests/lib/googletest
   OBJECT_DIR = tests/MyTests/CMakeFiles/MyTests.dir
   OBJECT_FILE_DIR = tests/MyTests/CMakeFiles/MyTests.dir
 
@@ -332,9 +339,9 @@ build tests/MyTests/CMakeFiles/MyTests.dir/Runner.cpp.o: CXX_COMPILER__MyTests_D
 #############################################
 # Link the executable tests/MyTests/MyTests
 
-build tests/MyTests/MyTests: CXX_EXECUTABLE_LINKER__MyTests_Debug tests/MyTests/CMakeFiles/MyTests.dir/OrderBookTests.cpp.o tests/MyTests/CMakeFiles/MyTests.dir/OrderTests.cpp.o tests/MyTests/CMakeFiles/MyTests.dir/Runner.cpp.o | lib/libgtest.a lib/libgtest_main.a OrderBook/libOrderBook.a lib/libgtest.a || OrderBook/libOrderBook.a lib/libgtest.a lib/libgtest_main.a
+build tests/MyTests/MyTests: CXX_EXECUTABLE_LINKER__MyTests_Debug tests/MyTests/CMakeFiles/MyTests.dir/OrderBookTests.cpp.o tests/MyTests/CMakeFiles/MyTests.dir/OrderTests.cpp.o tests/MyTests/CMakeFiles/MyTests.dir/Runner.cpp.o tests/MyTests/CMakeFiles/MyTests.dir/TestProfile.cpp.o | lib/libgtest.a lib/libgtest_main.a OrderBook/libOrderBook.a lib/libBackTestLib.a lib/libgtest.a || OrderBook/libOrderBook.a lib/libBackTestLib.a lib/libgtest.a lib/libgtest_main.a
   FLAGS = -g
-  LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  OrderBook/libOrderBook.a  lib/libgtest.a
+  LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  OrderBook/libOrderBook.a  lib/libBackTestLib.a  lib/libgtest.a
   OBJECT_DIR = tests/MyTests/CMakeFiles/MyTests.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -346,7 +353,7 @@ build tests/MyTests/MyTests: CXX_EXECUTABLE_LINKER__MyTests_Debug tests/MyTests/
 # Utility command for edit_cache
 
 build tests/MyTests/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/tests/MyTests && /snap/clion/237/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/tests/MyTests && /snap/clion/241/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -357,7 +364,7 @@ build tests/MyTests/edit_cache: phony tests/MyTests/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build tests/MyTests/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/tests/MyTests && /snap/clion/237/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/tests/MyTests && /snap/clion/241/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -381,28 +388,49 @@ build cmake_object_order_depends_target_BackTestLibRun: phony || lib/CMakeFiles/
 build lib/CMakeFiles/BackTestLibRun.dir/BackTest.cpp.o: CXX_COMPILER__BackTestLibRun_Debug /home/murad/CLionProjects/backTest/lib/BackTest.cpp || cmake_object_order_depends_target_BackTestLibRun
   DEP_FILE = lib/CMakeFiles/BackTestLibRun.dir/BackTest.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
   OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLibRun.dir
 
 build lib/CMakeFiles/BackTestLibRun.dir/Exchange.cpp.o: CXX_COMPILER__BackTestLibRun_Debug /home/murad/CLionProjects/backTest/lib/Exchange.cpp || cmake_object_order_depends_target_BackTestLibRun
   DEP_FILE = lib/CMakeFiles/BackTestLibRun.dir/Exchange.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
   OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLibRun.dir
 
 build lib/CMakeFiles/BackTestLibRun.dir/History.cpp.o: CXX_COMPILER__BackTestLibRun_Debug /home/murad/CLionProjects/backTest/lib/History.cpp || cmake_object_order_depends_target_BackTestLibRun
   DEP_FILE = lib/CMakeFiles/BackTestLibRun.dir/History.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
   OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLibRun.dir
 
 build lib/CMakeFiles/BackTestLibRun.dir/Model.cpp.o: CXX_COMPILER__BackTestLibRun_Debug /home/murad/CLionProjects/backTest/lib/Model.cpp || cmake_object_order_depends_target_BackTestLibRun
   DEP_FILE = lib/CMakeFiles/BackTestLibRun.dir/Model.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
+  OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
+  OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLibRun.dir
+
+build lib/CMakeFiles/BackTestLibRun.dir/Data.cpp.o: CXX_COMPILER__BackTestLibRun_Debug /home/murad/CLionProjects/backTest/lib/Data.cpp || cmake_object_order_depends_target_BackTestLibRun
+  DEP_FILE = lib/CMakeFiles/BackTestLibRun.dir/Data.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
+  OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
+  OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLibRun.dir
+
+build lib/CMakeFiles/BackTestLibRun.dir/Robot.cpp.o: CXX_COMPILER__BackTestLibRun_Debug /home/murad/CLionProjects/backTest/lib/Robot.cpp || cmake_object_order_depends_target_BackTestLibRun
+  DEP_FILE = lib/CMakeFiles/BackTestLibRun.dir/Robot.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
+  OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
+  OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLibRun.dir
+
+build lib/CMakeFiles/BackTestLibRun.dir/Portfolio.cpp.o: CXX_COMPILER__BackTestLibRun_Debug /home/murad/CLionProjects/backTest/lib/Portfolio.cpp || cmake_object_order_depends_target_BackTestLibRun
+  DEP_FILE = lib/CMakeFiles/BackTestLibRun.dir/Portfolio.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
   OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLibRun.dir
 
@@ -414,7 +442,7 @@ build lib/CMakeFiles/BackTestLibRun.dir/Model.cpp.o: CXX_COMPILER__BackTestLibRu
 #############################################
 # Link the executable lib/BackTestLibRun
 
-build lib/BackTestLibRun: CXX_EXECUTABLE_LINKER__BackTestLibRun_Debug lib/CMakeFiles/BackTestLibRun.dir/BackTest.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Exchange.cpp.o lib/CMakeFiles/BackTestLibRun.dir/History.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Model.cpp.o
+build lib/BackTestLibRun: CXX_EXECUTABLE_LINKER__BackTestLibRun_Debug lib/CMakeFiles/BackTestLibRun.dir/BackTest.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Exchange.cpp.o lib/CMakeFiles/BackTestLibRun.dir/History.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Model.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Data.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Robot.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Portfolio.cpp.o
   FLAGS = -g
   OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
   POST_BUILD = :
@@ -434,28 +462,49 @@ build cmake_object_order_depends_target_BackTestLib: phony || lib/CMakeFiles/Bac
 build lib/CMakeFiles/BackTestLib.dir/BackTest.cpp.o: CXX_COMPILER__BackTestLib_Debug /home/murad/CLionProjects/backTest/lib/BackTest.cpp || cmake_object_order_depends_target_BackTestLib
   DEP_FILE = lib/CMakeFiles/BackTestLib.dir/BackTest.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
   OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLib.dir
 
 build lib/CMakeFiles/BackTestLib.dir/Exchange.cpp.o: CXX_COMPILER__BackTestLib_Debug /home/murad/CLionProjects/backTest/lib/Exchange.cpp || cmake_object_order_depends_target_BackTestLib
   DEP_FILE = lib/CMakeFiles/BackTestLib.dir/Exchange.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
   OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLib.dir
 
 build lib/CMakeFiles/BackTestLib.dir/History.cpp.o: CXX_COMPILER__BackTestLib_Debug /home/murad/CLionProjects/backTest/lib/History.cpp || cmake_object_order_depends_target_BackTestLib
   DEP_FILE = lib/CMakeFiles/BackTestLib.dir/History.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
   OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLib.dir
 
 build lib/CMakeFiles/BackTestLib.dir/Model.cpp.o: CXX_COMPILER__BackTestLib_Debug /home/murad/CLionProjects/backTest/lib/Model.cpp || cmake_object_order_depends_target_BackTestLib
   DEP_FILE = lib/CMakeFiles/BackTestLib.dir/Model.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
+  OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
+  OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLib.dir
+
+build lib/CMakeFiles/BackTestLib.dir/Data.cpp.o: CXX_COMPILER__BackTestLib_Debug /home/murad/CLionProjects/backTest/lib/Data.cpp || cmake_object_order_depends_target_BackTestLib
+  DEP_FILE = lib/CMakeFiles/BackTestLib.dir/Data.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
+  OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
+  OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLib.dir
+
+build lib/CMakeFiles/BackTestLib.dir/Robot.cpp.o: CXX_COMPILER__BackTestLib_Debug /home/murad/CLionProjects/backTest/lib/Robot.cpp || cmake_object_order_depends_target_BackTestLib
+  DEP_FILE = lib/CMakeFiles/BackTestLib.dir/Robot.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
+  OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
+  OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLib.dir
+
+build lib/CMakeFiles/BackTestLib.dir/Portfolio.cpp.o: CXX_COMPILER__BackTestLib_Debug /home/murad/CLionProjects/backTest/lib/Portfolio.cpp || cmake_object_order_depends_target_BackTestLib
+  DEP_FILE = lib/CMakeFiles/BackTestLib.dir/Portfolio.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
   OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLib.dir
 
@@ -467,7 +516,7 @@ build lib/CMakeFiles/BackTestLib.dir/Model.cpp.o: CXX_COMPILER__BackTestLib_Debu
 #############################################
 # Link the static library lib/libBackTestLib.a
 
-build lib/libBackTestLib.a: CXX_STATIC_LIBRARY_LINKER__BackTestLib_Debug lib/CMakeFiles/BackTestLib.dir/BackTest.cpp.o lib/CMakeFiles/BackTestLib.dir/Exchange.cpp.o lib/CMakeFiles/BackTestLib.dir/History.cpp.o lib/CMakeFiles/BackTestLib.dir/Model.cpp.o
+build lib/libBackTestLib.a: CXX_STATIC_LIBRARY_LINKER__BackTestLib_Debug lib/CMakeFiles/BackTestLib.dir/BackTest.cpp.o lib/CMakeFiles/BackTestLib.dir/Exchange.cpp.o lib/CMakeFiles/BackTestLib.dir/History.cpp.o lib/CMakeFiles/BackTestLib.dir/Model.cpp.o lib/CMakeFiles/BackTestLib.dir/Data.cpp.o lib/CMakeFiles/BackTestLib.dir/Robot.cpp.o lib/CMakeFiles/BackTestLib.dir/Portfolio.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
   POST_BUILD = :
@@ -480,7 +529,7 @@ build lib/libBackTestLib.a: CXX_STATIC_LIBRARY_LINKER__BackTestLib_Debug lib/CMa
 # Utility command for edit_cache
 
 build lib/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/lib && /snap/clion/237/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/lib && /snap/clion/241/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -491,7 +540,7 @@ build lib/edit_cache: phony lib/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build lib/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/lib && /snap/clion/237/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/lib && /snap/clion/241/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -515,7 +564,7 @@ build cmake_object_order_depends_target_TimeRun: phony || Time/CMakeFiles/TimeRu
 build Time/CMakeFiles/TimeRun.dir/Time.cpp.o: CXX_COMPILER__TimeRun_Debug /home/murad/CLionProjects/backTest/Time/Time.cpp || cmake_object_order_depends_target_TimeRun
   DEP_FILE = Time/CMakeFiles/TimeRun.dir/Time.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = Time/CMakeFiles/TimeRun.dir
   OBJECT_FILE_DIR = Time/CMakeFiles/TimeRun.dir
 
@@ -547,7 +596,7 @@ build cmake_object_order_depends_target_Time: phony || Time/CMakeFiles/Time.dir
 build Time/CMakeFiles/Time.dir/Time.cpp.o: CXX_COMPILER__Time_Debug /home/murad/CLionProjects/backTest/Time/Time.cpp || cmake_object_order_depends_target_Time
   DEP_FILE = Time/CMakeFiles/Time.dir/Time.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook
+  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = Time/CMakeFiles/Time.dir
   OBJECT_FILE_DIR = Time/CMakeFiles/Time.dir
 
@@ -572,7 +621,7 @@ build Time/libTime.a: CXX_STATIC_LIBRARY_LINKER__Time_Debug Time/CMakeFiles/Time
 # Utility command for edit_cache
 
 build Time/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/Time && /snap/clion/237/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/Time && /snap/clion/241/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -583,7 +632,7 @@ build Time/edit_cache: phony Time/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build Time/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/Time && /snap/clion/237/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
+  COMMAND = cd /home/murad/CLionProjects/backTest/cmake-build-debug/Time && /snap/clion/241/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/murad/CLionProjects/backTest -B/home/murad/CLionProjects/backTest/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -680,14 +729,14 @@ build tests/lib/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/murad/CLionProjects/backTest/CMakeLists.txt /home/murad/CLionProjects/backTest/OrderBook/CMakeLists.txt /home/murad/CLionProjects/backTest/Time/CMakeLists.txt /home/murad/CLionProjects/backTest/lib/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/MyTests/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/lib/googletest/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/lib/googletest/cmake/internal_utils.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython/Support.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/murad/CLionProjects/backTest/CMakeLists.txt /home/murad/CLionProjects/backTest/OrderBook/CMakeLists.txt /home/murad/CLionProjects/backTest/Time/CMakeLists.txt /home/murad/CLionProjects/backTest/lib/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/MyTests/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/lib/googletest/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/lib/googletest/cmake/internal_utils.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython/Support.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/murad/CLionProjects/backTest/CMakeLists.txt /home/murad/CLionProjects/backTest/OrderBook/CMakeLists.txt /home/murad/CLionProjects/backTest/Time/CMakeLists.txt /home/murad/CLionProjects/backTest/lib/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/MyTests/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/lib/googletest/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/lib/googletest/cmake/internal_utils.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython/Support.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/237/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
+build /home/murad/CLionProjects/backTest/CMakeLists.txt /home/murad/CLionProjects/backTest/OrderBook/CMakeLists.txt /home/murad/CLionProjects/backTest/Time/CMakeLists.txt /home/murad/CLionProjects/backTest/lib/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/MyTests/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/lib/googletest/CMakeLists.txt /home/murad/CLionProjects/backTest/tests/lib/googletest/cmake/internal_utils.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/CheckLibraryExists.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindPython/Support.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindThreads.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/Linux.cmake /snap/clion/241/bin/cmake/linux/x64/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
 
 
 #############################################

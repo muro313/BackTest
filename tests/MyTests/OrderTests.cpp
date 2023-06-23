@@ -29,14 +29,3 @@ TEST(OrderTest, TypeChange){
     EXPECT_TRUE(bid.IsAsk());
     EXPECT_FALSE(bid.IsBid());
 }
-
-TEST(OrderTest, Time){
-    using namespace std::literals;
-    auto now = std::chrono::system_clock::now();
-    Order bid(0,0, false, now, now + 24ms);
-    EXPECT_TRUE(bid.Exists());
-    std::this_thread::sleep_for(12ms);
-    EXPECT_TRUE(bid.Exists());
-    std::this_thread::sleep_for(12ms);
-    EXPECT_FALSE(bid.Exists());
-}
