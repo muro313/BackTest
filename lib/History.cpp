@@ -1,6 +1,6 @@
 #include "History.h"
 
-History::History(std::string file_name) : file_name_(std::move(file_name)), current_(data_.begin()) {
+History::History(std::string file_name) : file_name_(std::move(file_name)) {
 }
 
 History::Iterator History::begin() {

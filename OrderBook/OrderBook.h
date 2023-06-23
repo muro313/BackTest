@@ -19,7 +19,7 @@ public:
     }
 
     PriceType GetMaxAsk() {
-        if(AskAmount() == 0){
+        if (AskAmount() == 0) {
             throw std::runtime_error("No any ask to get max");
         }
         auto iter = orders_.begin();
@@ -28,7 +28,7 @@ public:
     }
 
     PriceType GetMinBid() {
-        if(BidAmount() == 0){
+        if (BidAmount() == 0) {
             throw std::runtime_error("No bid ask to get min");
         }
         auto iter = orders_.begin();
@@ -81,13 +81,14 @@ public:
         return asks_count_;
     }
 
-    size_t GetVolume(PriceType price){
+    size_t GetVolume(PriceType price) {
         auto iter = orders_.find(price);
-        if(iter == orders_.end()){
+        if (iter == orders_.end()) {
             return 0;
         }
         return iter->second->GetVolume();
     }
+
 private:
     size_t asks_count_ = 0;
     std::map<PriceType, OrderPtr> orders_;

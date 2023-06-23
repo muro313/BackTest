@@ -4,18 +4,21 @@
 #include "Order.h"
 #include <vector>
 
+struct Event {
+    Event(const std::shared_ptr<Order<double>> &order, bool is_end_);
+
+    std::shared_ptr<Order<double>> order;
+    bool is_end_{};
+};
+
 class Data {
 public:
     Data() = default;
 
-    void addOrder(const Order<double> &order, bool is_finish);
+    void addEvent(const std::shared_ptr<Order<double>> &order, bool is_finish);
 
-    std::shared_ptr<Order<double>> getOrder(size_t order);
-
-    bool isFinish(size_t order);
+    std::vector<std::shared_ptr<Event>> &getEvents();
 
 private:
-    size_t orders_amount_ = 0;
-    std::vector<std::shared_ptr<Order<double>>> orders_;
-    std::vector<bool> is_finish_;
+    std::vector<std::shared_ptr<Event>> events_;
 };

@@ -1,14 +1,13 @@
 #include "Data.h"
 
-void Data::addOrder(const Order<double> &order, bool is_finish) {
-    orders_.push_back(std::make_shared<Order<double>>(order));
-    is_finish_.push_back(is_finish);
+Event::Event(const std::shared_ptr<Order<double>> &order, bool is_end_) : order(order),
+                                                                          is_end_(is_end_) {
 }
 
-std::shared_ptr<Order<double>> Data::getOrder(size_t order) {
-    return orders_[order];
+void Data::addEvent(const std::shared_ptr<Order<double>>& order, bool is_finish) {
+    events_.push_back(std::make_shared<Event>(order, is_finish));
 }
 
-bool Data::isFinish(size_t order) {
-    return is_finish_[true];
+std::vector<std::shared_ptr<Event>> &Data::getEvents() {
+    return events_;
 }

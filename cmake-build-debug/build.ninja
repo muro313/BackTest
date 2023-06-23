@@ -392,13 +392,6 @@ build lib/CMakeFiles/BackTestLibRun.dir/BackTest.cpp.o: CXX_COMPILER__BackTestLi
   OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
   OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLibRun.dir
 
-build lib/CMakeFiles/BackTestLibRun.dir/Exchange.cpp.o: CXX_COMPILER__BackTestLibRun_Debug /home/murad/CLionProjects/backTest/lib/Exchange.cpp || cmake_object_order_depends_target_BackTestLibRun
-  DEP_FILE = lib/CMakeFiles/BackTestLibRun.dir/Exchange.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
-  OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
-  OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLibRun.dir
-
 build lib/CMakeFiles/BackTestLibRun.dir/History.cpp.o: CXX_COMPILER__BackTestLibRun_Debug /home/murad/CLionProjects/backTest/lib/History.cpp || cmake_object_order_depends_target_BackTestLibRun
   DEP_FILE = lib/CMakeFiles/BackTestLibRun.dir/History.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
@@ -420,13 +413,6 @@ build lib/CMakeFiles/BackTestLibRun.dir/Data.cpp.o: CXX_COMPILER__BackTestLibRun
   OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
   OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLibRun.dir
 
-build lib/CMakeFiles/BackTestLibRun.dir/Robot.cpp.o: CXX_COMPILER__BackTestLibRun_Debug /home/murad/CLionProjects/backTest/lib/Robot.cpp || cmake_object_order_depends_target_BackTestLibRun
-  DEP_FILE = lib/CMakeFiles/BackTestLibRun.dir/Robot.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
-  OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
-  OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLibRun.dir
-
 build lib/CMakeFiles/BackTestLibRun.dir/Portfolio.cpp.o: CXX_COMPILER__BackTestLibRun_Debug /home/murad/CLionProjects/backTest/lib/Portfolio.cpp || cmake_object_order_depends_target_BackTestLibRun
   DEP_FILE = lib/CMakeFiles/BackTestLibRun.dir/Portfolio.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
@@ -442,7 +428,7 @@ build lib/CMakeFiles/BackTestLibRun.dir/Portfolio.cpp.o: CXX_COMPILER__BackTestL
 #############################################
 # Link the executable lib/BackTestLibRun
 
-build lib/BackTestLibRun: CXX_EXECUTABLE_LINKER__BackTestLibRun_Debug lib/CMakeFiles/BackTestLibRun.dir/BackTest.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Exchange.cpp.o lib/CMakeFiles/BackTestLibRun.dir/History.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Model.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Data.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Robot.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Portfolio.cpp.o
+build lib/BackTestLibRun: CXX_EXECUTABLE_LINKER__BackTestLibRun_Debug lib/CMakeFiles/BackTestLibRun.dir/BackTest.cpp.o lib/CMakeFiles/BackTestLibRun.dir/History.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Model.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Data.cpp.o lib/CMakeFiles/BackTestLibRun.dir/Portfolio.cpp.o
   FLAGS = -g
   OBJECT_DIR = lib/CMakeFiles/BackTestLibRun.dir
   POST_BUILD = :
@@ -461,13 +447,6 @@ build cmake_object_order_depends_target_BackTestLib: phony || lib/CMakeFiles/Bac
 
 build lib/CMakeFiles/BackTestLib.dir/BackTest.cpp.o: CXX_COMPILER__BackTestLib_Debug /home/murad/CLionProjects/backTest/lib/BackTest.cpp || cmake_object_order_depends_target_BackTestLib
   DEP_FILE = lib/CMakeFiles/BackTestLib.dir/BackTest.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
-  OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
-  OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLib.dir
-
-build lib/CMakeFiles/BackTestLib.dir/Exchange.cpp.o: CXX_COMPILER__BackTestLib_Debug /home/murad/CLionProjects/backTest/lib/Exchange.cpp || cmake_object_order_depends_target_BackTestLib
-  DEP_FILE = lib/CMakeFiles/BackTestLib.dir/Exchange.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
   OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
@@ -494,13 +473,6 @@ build lib/CMakeFiles/BackTestLib.dir/Data.cpp.o: CXX_COMPILER__BackTestLib_Debug
   OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
   OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLib.dir
 
-build lib/CMakeFiles/BackTestLib.dir/Robot.cpp.o: CXX_COMPILER__BackTestLib_Debug /home/murad/CLionProjects/backTest/lib/Robot.cpp || cmake_object_order_depends_target_BackTestLib
-  DEP_FILE = lib/CMakeFiles/BackTestLib.dir/Robot.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
-  INCLUDES = -I/home/murad/CLionProjects/backTest/OrderBook -I/home/murad/CLionProjects/backTest/lib
-  OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
-  OBJECT_FILE_DIR = lib/CMakeFiles/BackTestLib.dir
-
 build lib/CMakeFiles/BackTestLib.dir/Portfolio.cpp.o: CXX_COMPILER__BackTestLib_Debug /home/murad/CLionProjects/backTest/lib/Portfolio.cpp || cmake_object_order_depends_target_BackTestLib
   DEP_FILE = lib/CMakeFiles/BackTestLib.dir/Portfolio.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
@@ -516,7 +488,7 @@ build lib/CMakeFiles/BackTestLib.dir/Portfolio.cpp.o: CXX_COMPILER__BackTestLib_
 #############################################
 # Link the static library lib/libBackTestLib.a
 
-build lib/libBackTestLib.a: CXX_STATIC_LIBRARY_LINKER__BackTestLib_Debug lib/CMakeFiles/BackTestLib.dir/BackTest.cpp.o lib/CMakeFiles/BackTestLib.dir/Exchange.cpp.o lib/CMakeFiles/BackTestLib.dir/History.cpp.o lib/CMakeFiles/BackTestLib.dir/Model.cpp.o lib/CMakeFiles/BackTestLib.dir/Data.cpp.o lib/CMakeFiles/BackTestLib.dir/Robot.cpp.o lib/CMakeFiles/BackTestLib.dir/Portfolio.cpp.o
+build lib/libBackTestLib.a: CXX_STATIC_LIBRARY_LINKER__BackTestLib_Debug lib/CMakeFiles/BackTestLib.dir/BackTest.cpp.o lib/CMakeFiles/BackTestLib.dir/History.cpp.o lib/CMakeFiles/BackTestLib.dir/Model.cpp.o lib/CMakeFiles/BackTestLib.dir/Data.cpp.o lib/CMakeFiles/BackTestLib.dir/Portfolio.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = lib/CMakeFiles/BackTestLib.dir
   POST_BUILD = :
